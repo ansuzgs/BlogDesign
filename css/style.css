@@ -1,0 +1,111 @@
+body {
+    background-color: #fafafa;
+}
+header {
+    height: 200px;
+    background-image: url('../images/photo.jpeg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0 50px;
+}
+
+.navbar-default {
+    opacity: 0.8;
+}
+
+.navbar ul>li>a:hover {
+    background-color: #BDBDBD !important;
+}
+
+.post-wrapper {
+    margin-top: 40px;
+}
+
+.post-header {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.post-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    color: #bababa
+}
+
+.post-body {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container hr {
+  width: 10em;
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 4px solid #bdbdbd;
+  margin: 3rem auto;
+}
+
+.pagination-center {
+    text-align: center;
+    margin: 0 auto !important;
+    margin-top: 2rem;
+}
+
+
+/*****************************
+    _footer.HTML
+*****************************/
+
+footer {
+    /*padding: 2.5em 5%;*/
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+    border-top: 1px solid #bababa;
+}
+
+.social i {
+    color: black;
+}
+
+.social i:hover {
+    color: #bdbdbd;
+}
+
+
+/*****************************
+    POST.HTML
+*****************************/
+
+.share-center {
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+.share {
+    margin-left: -20px;
+    padding-bottom: 20px;
+}
+
+.share li {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+}
+
+.share li i {
+    color: black;
+}
+
+.share li i:hover {
+    color: #bdbdbd;
+}
